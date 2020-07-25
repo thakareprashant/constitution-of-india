@@ -45,6 +45,38 @@
             endingLineNumber = "177"
             landmarkName = "apiFortable(idStr:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6E01EC47-79C0-4833-A1E5-A6012F6AA317 - e267cbe68472702c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in COI.partsViewController.apiFortable(idStr: Swift.String) -&gt; ()"
+                  moduleName = "COI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prashantdilipthakare/Desktop/ios%20Workspace/COI/view%20controller/partsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "177"
+                  endingLineNumber = "177"
+                  offsetFromSymbolStart = "824">
+               </Location>
+               <Location
+                  uuid = "6E01EC47-79C0-4833-A1E5-A6012F6AA317 - 19f178156d53cdb5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in COI.partsViewController.apiFortable(idStr: Swift.String) -&gt; ()"
+                  moduleName = "COI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prashantdilipthakare/Desktop/ios%20Workspace/COI/view%20controller/partsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "178"
+                  endingLineNumber = "178"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -61,38 +93,6 @@
             endingLineNumber = "176"
             landmarkName = "apiFortable(idStr:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "39788BBF-FF45-49C9-8E6C-1D01F09D0407 - e267cbe68472702c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in COI.partsViewController.apiFortable(idStr: Swift.String) -&gt; ()"
-                  moduleName = "COI"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/prashantdilipthakare/Desktop/ios%20Workspace/COI/view%20controller/partsViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "167"
-                  endingLineNumber = "167"
-                  offsetFromSymbolStart = "824">
-               </Location>
-               <Location
-                  uuid = "39788BBF-FF45-49C9-8E6C-1D01F09D0407 - 19f178156d53cdb5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in COI.partsViewController.apiFortable(idStr: Swift.String) -&gt; ()"
-                  moduleName = "COI"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/prashantdilipthakare/Desktop/ios%20Workspace/COI/view%20controller/partsViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "168"
-                  endingLineNumber = "168"
-                  offsetFromSymbolStart = "52">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
