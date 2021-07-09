@@ -9,9 +9,6 @@
 /* Begin PBXBuildFile section */
 		2861D9B65AB5A3A9C0758873 /* Pods_COI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EB728209E3DBB16B6E2F6C /* Pods_COI.framework */; };
 		FE0741E723A944A300131C40 /* scheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0741E623A944A300131C40 /* scheduleViewController.swift */; };
-		FE0741E923A9498700131C40 /* chakra@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE0741E823A9498700131C40 /* chakra@2x.png */; };
-		FE0741EB23A9498F00131C40 /* chakra@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE0741EA23A9498F00131C40 /* chakra@3x.png */; };
-		FE0741ED23A94A3000131C40 /* schedule1_inputbox@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE0741EC23A94A2F00131C40 /* schedule1_inputbox@3x.png */; };
 		FE2E517323E5821E00EA3A45 /* detailCaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2E517223E5821E00EA3A45 /* detailCaseViewController.swift */; };
 		FE44F5A823A79CA30072AA1A /* cellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44F5A723A79CA30072AA1A /* cellCollectionViewCell.swift */; };
 		FE66ECB923A60DF600DB4E5D /* preambleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66ECB823A60DF600DB4E5D /* preambleViewController.swift */; };
@@ -49,9 +46,6 @@
 		4EEE48D8A1DA5D9817466B28 /* Pods-COI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COI.release.xcconfig"; path = "Target Support Files/Pods-COI/Pods-COI.release.xcconfig"; sourceTree = "<group>"; };
 		E7EB728209E3DBB16B6E2F6C /* Pods_COI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_COI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0741E623A944A300131C40 /* scheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scheduleViewController.swift; sourceTree = "<group>"; };
-		FE0741E823A9498700131C40 /* chakra@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chakra@2x.png"; path = "../coi_Project_rawData/ios 2/schedule categories/chakra@2x.png"; sourceTree = "<group>"; };
-		FE0741EA23A9498F00131C40 /* chakra@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chakra@3x.png"; path = "../coi_Project_rawData/ios 2/schedule categories/chakra@3x.png"; sourceTree = "<group>"; };
-		FE0741EC23A94A2F00131C40 /* schedule1_inputbox@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "schedule1_inputbox@3x.png"; path = "../coi_Project_rawData/ios 2/schedule categories/schedule1_inputbox@3x.png"; sourceTree = "<group>"; };
 		FE2E517223E5821E00EA3A45 /* detailCaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailCaseViewController.swift; sourceTree = "<group>"; };
 		FE44F5A723A79CA30072AA1A /* cellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellCollectionViewCell.swift; sourceTree = "<group>"; };
 		FE66ECB823A60DF600DB4E5D /* preambleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preambleViewController.swift; sourceTree = "<group>"; };
@@ -168,9 +162,6 @@
 				FE30024724001ED900F830DD /* view controller */,
 				FE6EC30323A52EE100C7B28C /* COI */,
 				FE6EC30223A52EE100C7B28C /* Products */,
-				FE0741E823A9498700131C40 /* chakra@2x.png */,
-				FE0741EA23A9498F00131C40 /* chakra@3x.png */,
-				FE0741EC23A94A2F00131C40 /* schedule1_inputbox@3x.png */,
 				FEE3AF9223CEDC5700DABBCD /* red-fort.jpg */,
 				E2595A75032847B1ABEF256C /* Pods */,
 				89469B9CE48D66E08256B8AC /* Frameworks */,
@@ -259,12 +250,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE0741E923A9498700131C40 /* chakra@2x.png in Resources */,
 				FEFA4CE823AE4AD7009CE9CD /* caseStudyViewController.xib in Resources */,
 				FE6EC31123A52EE400C7B28C /* LaunchScreen.storyboard in Resources */,
 				FE6EC30E23A52EE400C7B28C /* Assets.xcassets in Resources */,
-				FE0741ED23A94A3000131C40 /* schedule1_inputbox@3x.png in Resources */,
-				FE0741EB23A9498F00131C40 /* chakra@3x.png in Resources */,
 				FEE3AF9323CEDC5700DABBCD /* red-fort.jpg in Resources */,
 				FE6EC30C23A52EE100C7B28C /* Main.storyboard in Resources */,
 			);
@@ -402,6 +390,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -462,6 +451,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -489,7 +479,9 @@
 			baseConfigurationReference = 17401012888C612F3852DB5D /* Pods-COI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YYU36N69K;
 				INFOPLIST_FILE = COI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -497,6 +489,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.COI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -507,7 +500,9 @@
 			baseConfigurationReference = 4EEE48D8A1DA5D9817466B28 /* Pods-COI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YYU36N69K;
 				INFOPLIST_FILE = COI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -515,6 +510,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.COI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
